@@ -1,0 +1,32 @@
+{
+  "modele": "XGBoost Approche B",
+  "target": "totalghgemissions",
+  "contexte": "Lomé, Togo",
+  "features": [
+    "propertygfatotal_log",
+    "numberoffloors_log",
+    "building_age",
+    "energystarscore",
+    "energystar_missing",
+    "elec_ratio",
+    "uses_steam",
+    "steam_ratio",
+    "has_parking",
+    "is_multipurpose",
+    "type_encoded",
+    "seattle_pred_log",
+    "seattle_biais",
+    "uses_clim",
+    "has_generator",
+    "eui_kwh_m2_an",
+    "emission_factor_grid"
+  ],
+  "n_train": 375,
+  "n_test": 125,
+  "r2_test": 0.9832,
+  "mape": 9.27,
+  "mdape": 6.23,
+  "emission_factor_grid": 0.62,
+  "statut": "MVP — dataset synthétique, à valider sur données réelles",
+  "next_step": "Collecter 20-30 bâtiments réels à Lomé pour validation"
+}

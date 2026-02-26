@@ -1,0 +1,4 @@
+Version,R2 test,CV R2 mean,CV R2 std,MAE log,RMSE reel (t),MAPE (%),MdAPE (%)
+LightGBM Base,0.9953,—,—,0.0595,290.0,6.35,3.78
+LightGBM RandomizedSearch,0.9955,-0.0834,—,0.056,279.6,5.88,3.47
+LightGBM GridSearch fin,0.9958,-0.082,—,0.0528,252.1,5.55,3.14

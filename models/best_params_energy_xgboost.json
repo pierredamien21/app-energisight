@@ -1,0 +1,7 @@
+{
+  "model__colsample_bytree": 0.9284,
+  "model__learning_rate": 0.0713,
+  "model__max_depth": 3,
+  "model__n_estimators": 1050,
+  "model__subsample": 0.8858
+}
